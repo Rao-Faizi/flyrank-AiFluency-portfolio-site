@@ -7,14 +7,11 @@ export default function Footer() {
         </p>
         
         <div className="flex items-center gap-6">
-          <a href="https://linkedin.com/in/raofaizi21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors font-medium">
+          <a href="https://linkedin.com/in/raofaizi21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors font-medium text-lg">
             LinkedIn
           </a>
-          <a href="https://github.com/Rao-Faizi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors font-medium">
+          <a href="https://github.com/Rao-Faizi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors font-medium text-lg">
             GitHub
-          </a>
-          <a href="/cv.pdf" className="text-gray-400 hover:text-white transition-colors font-medium">
-            Download CV
           </a>
         </div>
       </div>

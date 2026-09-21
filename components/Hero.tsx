@@ -12,8 +12,8 @@ export default function Hero() {
           className="object-cover"
           priority
         />
-        {/* Dark Overlay Fix for Contrast */}
-        <div className="absolute inset-0 bg-black/70"></div>
+        {/* Dark Overlay Fix for Contrast - Increased to 85% opacity */}
+        <div className="absolute inset-0 bg-black/85"></div>
       </div>
       
       {/* Content */}
@@ -25,9 +25,14 @@ export default function Hero() {
           </span>
         </h1>
         
-        <p className="text-lg md:text-xl text-accent font-mono mb-10">
-          Next.js • Python • N8N • LangChain • OpenAI API
-        </p>
+        {/* Tech Stack Pills for better contrast */}
+        <div className="flex flex-wrap gap-3 mb-10">
+          <span className="bg-accent/20 border border-accent/40 text-blue-200 px-4 py-2 rounded-full font-mono text-sm font-medium">Next.js</span>
+          <span className="bg-accent/20 border border-accent/40 text-blue-200 px-4 py-2 rounded-full font-mono text-sm font-medium">Python</span>
+          <span className="bg-accent/20 border border-accent/40 text-blue-200 px-4 py-2 rounded-full font-mono text-sm font-medium">N8N</span>
+          <span className="bg-accent/20 border border-accent/40 text-blue-200 px-4 py-2 rounded-full font-mono text-sm font-medium">LangChain</span>
+          <span className="bg-accent/20 border border-accent/40 text-blue-200 px-4 py-2 rounded-full font-mono text-sm font-medium">OpenAI API</span>
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
           <a 
@@ -41,6 +46,12 @@ export default function Hero() {
             className="inline-block text-center w-full sm:w-auto bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg hover:bg-white/10 transition-colors"
           >
             Get In Touch
+          </a>
+          <a 
+            href="/cv.pdf" 
+            className="inline-block text-center w-full sm:w-auto bg-gray-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-gray-700 transition-colors"
+          >
+            Download CV
           </a>
         </div>
       </div>
