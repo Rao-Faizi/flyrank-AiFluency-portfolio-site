@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          I build high-performance, AI-driven React applications and automate complex digital workflows.
+          I build high-performance Business Automation and AI Engineering solutions.
         </h1>
         <a 
           href="#work" 
