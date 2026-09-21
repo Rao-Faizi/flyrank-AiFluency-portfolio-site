@@ -26,7 +26,7 @@ export default function Footer() {
           <a href="https://linkedin.com/in/raofaizi21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-lg font-medium">
             LinkedIn
           </a>
-          <a href="https://github.com/raofaizi21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-lg font-medium">
+          <a href="https://github.com/Rao-Faizi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-lg font-medium">
             GitHub
           </a>
         </div>
