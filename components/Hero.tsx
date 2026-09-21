@@ -21,7 +21,7 @@ export default function Hero() {
         </h1>
         <a 
           href="#work" 
-          className="inline-block bg-accent text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
+          className="inline-block w-full md:w-auto bg-accent text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-700 transition-colors"
         >
           View My Work
         </a>
