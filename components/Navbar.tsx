@@ -17,11 +17,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-gray-800 shadow-sm">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           
           <Link href="/" className="text-xl font-bold text-white tracking-wide">
-            Muhammad<span className="text-accent">Faizan</span>
+            Muhammad<span className="text-blue-500">Faizan</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -30,7 +30,7 @@ export default function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-300 hover:text-accent transition-colors font-medium text-sm"
+                className="text-gray-300 hover:text-white transition-colors font-medium text-sm"
               >
                 {link.name}
               </a>
