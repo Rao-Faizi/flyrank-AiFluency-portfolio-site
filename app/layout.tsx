@@ -8,8 +8,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Muhammad Faizan | Portfolio",
-  description: "I build high-performance, AI-driven React applications and automate complex digital workflows.",
+  title: "Muhammad Faizan | Business Automation & AI Engineer",
+  description: "Automating manual business workflows using LLMs, custom web applications, and orchestration tools like N8N.",
+  openGraph: {
+    title: "Muhammad Faizan | Business Automation & AI Engineer",
+    description: "Automating manual business workflows using LLMs, custom web applications, and orchestration tools like N8N.",
+    url: "https://portfolio-site-vert-two-93.vercel.app/",
+    siteName: "Muhammad Faizan Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
