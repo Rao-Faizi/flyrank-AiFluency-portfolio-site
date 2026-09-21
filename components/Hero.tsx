@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[75vh] min-h-[600px] flex items-center justify-start overflow-hidden">
+    <section className="relative w-full h-[75vh] min-h-[600px] flex items-center justify-start pt-24 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
