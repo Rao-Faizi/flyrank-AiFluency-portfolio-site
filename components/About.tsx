@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="py-20 px-4 bg-gray-50 border-y border-gray-100">
-      <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
-        <div className="w-48 h-48 bg-gray-200 rounded-full flex-shrink-0 relative overflow-hidden shadow-lg border-4 border-white">
+    <section className="py-24 px-4 bg-gray-50 border-y border-gray-200">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16">
+        <div className="w-56 h-56 bg-gray-200 rounded-full flex-shrink-0 relative overflow-hidden shadow-2xl border-4 border-white">
            <Image
              src="/professional_avatar.jpg"
              alt="Muhammad Faizan Avatar"
@@ -13,12 +13,19 @@ export default function About() {
            />
         </div>
         <div>
-          <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            I am Muhammad Faizan, a software engineer passionate about the intersection of business automation and generative AI. 
-            Currently, I am honing my skills as a Prompt Engineering Intern at Innoverse, where I optimize LLM interactions and design efficient automated systems. 
-            I believe that great design is invisible&mdash;it simply frames the work.
+          <h2 className="text-4xl font-bold mb-6 text-gray-900">About Me</h2>
+          <p className="text-xl text-gray-700 leading-relaxed mb-6">
+            I am a Software Engineer dedicated to bridging the gap between cutting-edge AI capabilities and real-world business efficiency. I build systems that automate the mundane so teams can focus on the meaningful.
           </p>
+          
+          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+            <h3 className="font-bold text-gray-900 mb-3 text-lg">Current Role: Prompt Engineering Intern @ Innoverse</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-600">
+              <li>Optimizing Large Language Model (LLM) interactions and system prompts for production-grade reliability.</li>
+              <li>Designing efficient, multi-step automated workflows to process high-volume data streams.</li>
+              <li>Collaborating with cross-functional teams to identify and eliminate operational bottlenecks using AI.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
